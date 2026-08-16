@@ -1,0 +1,6 @@
+# Everything that is not part of the submission lives in one folder:
+# working notes, helper scripts, the submission draft, the virtualenv, scratch.
+_local/
+
+# macOS Finder metadata
+.DS_Store
