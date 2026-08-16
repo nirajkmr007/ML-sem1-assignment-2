@@ -1,0 +1,413 @@
+{
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.8872,
+      "AUC": 0.9883,
+      "Precision": 0.8801,
+      "Recall": 0.8822,
+      "F1": 0.8803,
+      "MCC": 0.8646
+    },
+    "Decision Tree": {
+      "Accuracy": 0.7862,
+      "AUC": 0.9188,
+      "Precision": 0.7754,
+      "Recall": 0.7756,
+      "F1": 0.7751,
+      "MCC": 0.7428
+    },
+    "kNN": {
+      "Accuracy": 0.8418,
+      "AUC": 0.9737,
+      "Precision": 0.8327,
+      "Recall": 0.8349,
+      "F1": 0.8326,
+      "MCC": 0.8101
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.7988,
+      "AUC": 0.9704,
+      "Precision": 0.79,
+      "Recall": 0.7933,
+      "F1": 0.7884,
+      "MCC": 0.7594
+    },
+    "Random Forest (Ensemble)": {
+      "Accuracy": 0.8754,
+      "AUC": 0.9863,
+      "Precision": 0.8672,
+      "Recall": 0.8685,
+      "F1": 0.8672,
+      "MCC": 0.8503
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.883,
+      "AUC": 0.9882,
+      "Precision": 0.8752,
+      "Recall": 0.876,
+      "F1": 0.8748,
+      "MCC": 0.8594
+    }
+  },
+  "confusion_matrices": {
+    "Logistic Regression": [
+      [
+        216,
+        17,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        134,
+        40,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        19,
+        163,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        225,
+        12,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        145,
+        20
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        15,
+        171
+      ]
+    ],
+    "Decision Tree": [
+      [
+        210,
+        22,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        23,
+        115,
+        45,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        50,
+        129,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        206,
+        31,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        11,
+        118,
+        37
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        26,
+        156
+      ]
+    ],
+    "kNN": [
+      [
+        211,
+        21,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        15,
+        124,
+        44,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        23,
+        159,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        213,
+        23,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        127,
+        34
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        20,
+        166
+      ]
+    ],
+    "Naive Bayes": [
+      [
+        191,
+        42,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        18,
+        105,
+        60,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        19,
+        163,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        203,
+        32,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        11,
+        115,
+        40
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        14,
+        172
+      ]
+    ],
+    "Random Forest (Ensemble)": [
+      [
+        219,
+        14,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        10,
+        137,
+        36,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        22,
+        160,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        221,
+        16,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        6,
+        132,
+        28
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        15,
+        171
+      ]
+    ],
+    "Support Vector Machine": [
+      [
+        220,
+        12,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        11,
+        138,
+        34,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        18,
+        164,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        224,
+        13,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        5,
+        133,
+        28
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        16,
+        170
+      ]
+    ]
+  },
+  "class_order": [
+    "Healthy-Low",
+    "Healthy-Mid",
+    "Healthy-High",
+    "Broken-Low",
+    "Broken-Mid",
+    "Broken-High"
+  ],
+  "feature_columns": [
+    "a1_rms",
+    "a1_p2p",
+    "a1_kurtosis",
+    "a1_skewness",
+    "a1_crest_factor",
+    "a1_shape_factor",
+    "a1_impulse_factor",
+    "a1_spec_centroid",
+    "a1_hf_ratio",
+    "a2_rms",
+    "a2_p2p",
+    "a2_kurtosis",
+    "a2_skewness",
+    "a2_crest_factor",
+    "a2_shape_factor",
+    "a2_impulse_factor",
+    "a2_spec_centroid",
+    "a2_hf_ratio",
+    "a3_rms",
+    "a3_p2p",
+    "a3_kurtosis",
+    "a3_skewness",
+    "a3_crest_factor",
+    "a3_shape_factor",
+    "a3_impulse_factor",
+    "a3_spec_centroid",
+    "a3_hf_ratio",
+    "a4_rms",
+    "a4_p2p",
+    "a4_kurtosis",
+    "a4_skewness",
+    "a4_crest_factor",
+    "a4_shape_factor",
+    "a4_impulse_factor",
+    "a4_spec_centroid",
+    "a4_hf_ratio"
+  ],
+  "target_column": "gearbox_state",
+  "n_train": 2753,
+  "n_test": 1188,
+  "winner": "Logistic Regression",
+  "binary_health_only_accuracy": {
+    "Logistic Regression": 1.0,
+    "Decision Tree": 1.0,
+    "kNN": 0.9992,
+    "Naive Bayes": 1.0,
+    "Random Forest (Ensemble)": 1.0,
+    "Support Vector Machine": 1.0
+  },
+  "sklearn_version": "1.8.0"
+}
