@@ -8,7 +8,7 @@ test rig, served through an interactive Streamlit application.
 
 | | |
 |---|---|
-| **Live Streamlit app** | [Open the deployed app](PASTE-YOUR-STREAMLIT-APP-URL-HERE) |
+| **Live Streamlit app** | [nirajk.streamlit.app](https://nirajk.streamlit.app/) |
 | **GitHub repository** | [github.com/nirajkmr007/ML-sem1-assignment-2](https://github.com/nirajkmr007/ML-sem1-assignment-2) |
 
 ---
